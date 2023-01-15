@@ -1,13 +1,15 @@
-import logo from './logo.svg';
+
 import './App.css';
-import Main from './Component/Main';
+// import Main from './Component/Main';
+import NavBar from './Component/NavBar';
 
 function App() {
   return (
     <div>
       
      
-      <Main/>
+      
+      <NavBar title="Agri"/>
     </div>
     
   );
