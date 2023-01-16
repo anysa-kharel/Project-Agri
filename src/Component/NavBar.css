@@ -46,7 +46,7 @@
 .menus ul{
     height: 8rem;
     display: flex;
-    justify-content: space-around;
+    justify-content:space-around;
     align-items: center;
 }
 
@@ -67,8 +67,19 @@
   }
 
 
+  .buttons
+  {
+    grid-column: 4/5;
+  }
+
+  .buttons ul{
+    height: 8rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
   
-  .button1 button{
+  .primary{
     background-color: #46573c;
     display:grid;
     border: none;
@@ -77,10 +88,10 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 10px;
+    font-size: 1.8rem;
   }
 
-  .button2 button{
+  .secondary{
     background-color: #56af22;
     border: none;
     color: white;
@@ -88,7 +99,7 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 10px;
+    font-size: 1.8rem;
   }
 
   

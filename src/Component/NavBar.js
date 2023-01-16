@@ -25,24 +25,19 @@ const NavBar = (props) =>
     </div>
 
     { /* Buttons */ } 
-  <div className="button1">
-    
-      <button type="button"  >Log In</button>
-     
-      </div>
+    <div className="buttons">
+<ul>
+  <li>
+  <button type="button" class="primary" >Log In</button> 
+  </li>
+  <li>
+  <button type="button" class="secondary"  >Sign Up</button> 
+  </li>
 
-    <div className="button2">
+</ul>
 
-    <button type="button"  >Sign Up</button>
-  
-  </div>
-      
-      
-      
-    
-  
-
-
+</div>
+ 
     </nav> 
          </>
     );
