@@ -1,10 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter } from 'react-router-dom';
-
+import { BrowserRouter,Routes,Route } from 'react-router-dom';
+import Login from './Component/Login';
+import Signup from './Component/Signup';
+import NavBar from './Component/NavBar';
 
 
 // ReactDOM.render(
@@ -16,10 +18,13 @@ import { BrowserRouter } from 'react-router-dom';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
-   <React.StrictMode>
-    <App />
-  </React.StrictMode>
-  </BrowserRouter>
+ 
+    <Routes> 
+  <Route index element={<NavBar/>}/>
+  <Route exact path="/login" element={<Login/>}/>
+  <Route exact path="/signup" element={<Signup/>}/>
+</Routes>
+</BrowserRouter>
  
 );
 

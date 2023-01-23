@@ -1,6 +1,10 @@
+
+
 const Login=()=>
 {
     return(
+      <>
+     
         <form>
   <div className="mb-3">
     <label for="exampleInputEmail1" className="form-label">Email address</label>
@@ -17,6 +21,7 @@ const Login=()=>
   </div>
   <button type="submit" className="btn btn-primary">Submit</button>
 </form>
+</>
     );
 }
 export default Login
