@@ -1,4 +1,4 @@
-let Main=()=>
+const Main=()=>
 {
     return(
         <div>
