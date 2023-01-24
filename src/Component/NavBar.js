@@ -2,23 +2,9 @@
 import PropTypes from 'prop-types'
 import "./NavBar.css"
 import { Link } from 'react-router-dom';
-// import Login from './Login';
-// import Signup from './Signup';
-
 
 const NavBar = (props) =>
 {
-  // const navigate = useNavigate();
-  // const login=()=>
-  // {
- 
-  //   navigate('/login')   
-  // }
-  // const signup=()=>
-  // {
-  //         navigate('/signup')
-  // }
-
     return(
       <> 
       <nav className="main-nav">

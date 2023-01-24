@@ -1,0 +1,21 @@
+.main-sign{
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    margin-top: 15%;
+    margin-bottom: auto;
+    background-color: greenyellow;
+    padding: 30px;
+    /* display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    }
+
+.main-sign label{
+    font-size: small;
+}
+
+.main-sign PhoneInput{
+    width: 8%;
+}
